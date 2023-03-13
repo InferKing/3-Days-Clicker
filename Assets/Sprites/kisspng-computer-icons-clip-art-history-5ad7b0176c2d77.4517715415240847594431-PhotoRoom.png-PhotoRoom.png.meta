@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: 982cc21c10fc6034b942384b46dfd22c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 487
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c8a081c32f14244baa4d59e72c68f8
+      internalID: -1833547127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 422
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e2a4af5e8b10b4bbf19edb378c34c2
+      internalID: -814386789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 505
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d01f79cf4d92b4abef464b3bdafb3c
+      internalID: 405968920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 439
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6227ff8dc9496468a4bbc5099deda7
+      internalID: -184672490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 422
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858b8f57d0aeebe45ae47b9b3b555a66
+      internalID: -1075726217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_5
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 422
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdc1b485a88fed499f60a677105489e
+      internalID: -351625611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 234
+        width: 104
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8349fd7560480fa4181577290ccbcb45
+      internalID: -135591077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 234
+        width: 92
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcd1ebfe44b50c4db3f3c94698c26be
+      internalID: 229121634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_8
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 234
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa164690edab124fa114522493c8a1c
+      internalID: -2012470488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_9
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 46
+        width: 84
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba436cd0ab526e04a9675eb9afbcc917
+      internalID: 281311093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_10
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 46
+        width: 128
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e024544fe8b1ce7429baeb549c025cae
+      internalID: 553611019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_11
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 54
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cf8947b4aa1064c91b7ebb58e0fd3f
+      internalID: 1850741587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_0: -1833547127
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_1: -814386789
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_10: 553611019
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_11: 1850741587
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_2: 405968920
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_3: -184672490
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_4: -1075726217
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_5: -351625611
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_6: -135591077
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_7: 229121634
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_8: -2012470488
+      kisspng-computer-icons-clip-art-history-5ad7b0176c2d77.4517715415240847594431-PhotoRoom.png-PhotoRoom_9: 281311093
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

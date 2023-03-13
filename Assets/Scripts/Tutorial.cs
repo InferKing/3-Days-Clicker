@@ -9,6 +9,23 @@ public class Tutorial : MonoBehaviour
     [SerializeField] private TMP_Text _text;
     [SerializeField] private GameObject _gameObject;
     [SerializeField] private GameObject _arrow;
+    private List<string> _ruText = new List<string>()
+    {
+        "Привет!",
+        "Нажми на кнопку позади меня!",
+        "Видишь? Ты получил монеты!",
+        "Сейчас нажми на меню и посмотри улучшения!",
+        "Заработай как можно больше монет. Удачи!"
+    };
+    private List<string> _enText = new List<string>()
+    { 
+        "Hi!",
+        "Press the coin behind me!",
+        "See? You got added points!",
+        "Now click on the menu and check out the improvements!",
+        "Earn as many coins as possible. Good luck!"
+    };
+
     private bool _invoked = false;
 
     private void OnEnable()
@@ -32,23 +49,23 @@ public class Tutorial : MonoBehaviour
     private IEnumerator StartTutorial()
     {
         _gameObject.SetActive(true);
-        _text.text = "Hi!";
+        _text.text = Language.instance.currentLanguage == "ru" ? _ruText[0] : _enText[0];
         yield return new WaitForSeconds(2f);
         _invoked = false;
-        yield return StartCoroutine(TypeMessage("Press the coin behind me!"));
+        yield return StartCoroutine(TypeMessage(Language.instance.currentLanguage == "ru" ? _ruText[1] : _enText[1]));
         yield return new WaitUntil(() => _invoked);
         _arrow.SetActive(true);
-        yield return StartCoroutine(TypeMessage("See? You got added points!"));
+        yield return StartCoroutine(TypeMessage(Language.instance.currentLanguage == "ru" ? _ruText[2] : _enText[2]));
         yield return new WaitForSeconds(2f);
         _arrow.transform.Rotate(0, 0, 90);
-        _arrow.transform.position = new Vector3(-0.7f, 1.4f, _arrow.transform.position.z);
-        yield return StartCoroutine(TypeMessage("Now click on the menu and check out the improvements!"));
+        _arrow.transform.position = new Vector3(-0.5f, 1.4f, _arrow.transform.position.z);
+        yield return StartCoroutine(TypeMessage(Language.instance.currentLanguage == "ru" ? _ruText[3] : _enText[3]));
         yield return new WaitUntil(() => _shop.IsMenuActive());
         _arrow.SetActive(false);
         _gameObject.SetActive(false);
         yield return new WaitUntil(() => !_shop.IsMenuActive());
         _gameObject.SetActive(true);
-        yield return StartCoroutine(TypeMessage("Earn as many points as possible. Good luck!"));
+        yield return StartCoroutine(TypeMessage(Language.instance.currentLanguage == "ru" ? _ruText[4] : _enText[4]));
         yield return new WaitForSeconds(2f);
         _gameObject.SetActive(false);
     }

@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
     public static int Multiplier { get; set; }
     private void Start()
     {
-        StartCoroutine(Save50());
         _count = SaveData.instance.info.coins;
         _music.Play();
         Multiplier = 1;
@@ -37,23 +36,16 @@ public class PlayerController : MonoBehaviour
         _count += Bonus * Multiplier;
         SaveData.instance.info.coins = _count;
         OnCountChanged?.Invoke(_count);
+        SaveData.instance.Save();
     }
     private void OnMouseUp()
     {
         if (_shop.IsMenuActive()) return;
         _animator.SetBool("Play", false);
     }
-    private IEnumerator Save50()
+    private void OnApplicationQuit()
     {
-        while (true)
-        {
-            if (_leg >= 50)
-            {
-                _leg = 0;
-                SaveData.instance.Save();
-            }
-            yield return null;
-        }
+        SaveData.instance.Save();
     }
     public int GetCount() => _count; 
     public void DecreaseScore(int x)
