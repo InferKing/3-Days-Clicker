@@ -14,7 +14,7 @@ public class Language : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            //currentLanguage = GetLang();
+            currentLanguage = GetLang();
         }
         else Destroy(gameObject);
     }

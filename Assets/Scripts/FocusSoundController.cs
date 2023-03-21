@@ -12,7 +12,7 @@ public class FocusSoundController : MonoBehaviour
     void OnApplicationPause(bool isPaused)
     {
         Silence(isPaused);
-    }
+    }    
 
     private void Silence(bool silence)
     {

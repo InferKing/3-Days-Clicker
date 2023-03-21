@@ -11,6 +11,7 @@ mergeInto(LibraryManager.library, {
           myGameInstance.SendMessage("ButtonController", "Reward");
         },
         onClose: () => {
+          myGameInstance.SendMessage("ButtonController", "SetMusicActive");
           console.log('Video ad closed.');
         }, 
         onError: (e) => {
